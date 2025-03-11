@@ -196,6 +196,8 @@ function Sidebar({
             } as React.CSSProperties
           }
           side={side}
+          onOpenAutoFocus={(e) => e.preventDefault()} // Desactiva el enfoque automático al abrir el "sheet"
+          // onCloseAutoFocus={(e) => e.preventDefault()} // Desactiva el enfoque automático al cerrar el "sheet"
         >
           <div className="flex h-full w-full flex-col">{children}</div>
         </SheetContent>
