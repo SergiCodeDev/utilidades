@@ -1,100 +1,132 @@
-# Welcome to React Router!
+# <img src=".imagenes/logito-holo.png" alt="Logo" height="24"> Utilidades
 
-A modern, production-ready template for building full-stack React applications using React Router.
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=101010)]() [![Next.js](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=reactrouter&logoColor=white&labelColor=101010)]() [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)]() [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=101010)]() [![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=node.js&logoColor=white&labelColor=101010)]()
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## Inicio:
 
-## Features
+![App Screenshot](.imagenes/README/inicio.webp)
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+> [!NOTE]
+> Puedes visitar esta página en el siguiente enlace: [https://utilidades.pages.dev](https://utilidades.pages.dev/)
 
-## Getting Started
+## Página:
 
-### Installation
+![App Screenshot](.imagenes/README/pagina.webp)
 
-Install the dependencies:
+## Buscador:
 
-```bash
-npm install
-```
+![App Screenshot](.imagenes/README/buscador.webp)
 
-### Development
+## ¿Cómo crear tu propia web de utilidades o contribuir? Guía paso a paso
 
-Start the development server with HMR:
+1. **Requisitos**: Necesitas tener instalado Node.js v20+.
 
-```bash
-npm run dev
-```
+2. **Instalar las dependencias**: Para que el proyecto funcione correctamente.
 
-Your application will be available at `http://localhost:5173`.
+   ```bash
+   npm i
+   ```
 
-## Building for Production
+3. **Desarrollo**: Inicia el servidor en modo desarrollo.
 
-Create a production build:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm run build
-```
+   Tu aplicación estará disponible en `http://localhost:5173`.
 
-## Deployment
+4. **Personalización**: Edita el archivo de categorías:
 
-### Docker Deployment
+   ```typescript
+   // app/data/categories.ts
+   export const categories: Category[] = [
+     // otros
+     {
+       title: 'Nombre Categoría',
+       url: '/ruta', // nombre-categoria
+       items: [
+         {
+           title: 'Subcategoría',
+           url: '/ruta', // subcategoria (/nombre-categoria/subcategoria)
+           data: [
+             {
+               title: 'Nombre Herramienta',
+               web: 'URL', // Opcional
+               github: 'URL', // Opcional
+             },
+           ],
+         },
+         // otros
+       ],
+     },
+     // otros
+   ]
+   ```
 
-This template includes three Dockerfiles optimized for different package managers:
+5. **\*Build para producción**: Genera una build optimizada.
 
-- `Dockerfile` - for npm
-- `Dockerfile.pnpm` - for pnpm
-- `Dockerfile.bun` - for bun
+   ```bash
+   npm run build
+   ```
 
-To build and run using Docker:
+6. **Despliegue**: Una vez realizada la build, puedes acceder a `build/client/` y subir la carpeta `client` directamente a Cloudflare Pages.
 
-```bash
-# For npm
-docker build -t my-app .
+   ### Despliegue desde Docker (Opcional)
 
-# For pnpm
-docker build -f Dockerfile.pnpm -t my-app .
+   Este template incluye tres Dockerfiles para diferentes gestores de paquetes:
 
-# For bun
-docker build -f Dockerfile.bun -t my-app .
+   - `Dockerfile` - para npm
+   - `Dockerfile.pnpm` - para pnpm
+   - `Dockerfile.bun` - para bun
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+   Para construir y ejecutar con Docker:
 
-The containerized application can be deployed to any platform that supports Docker, including:
+   ```bash
+   # Para npm
+   docker build -t my-app .
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
+   # Para pnpm
+   docker build -f Dockerfile.pnpm -t my-app .
 
-### DIY Deployment
+   # Para bun
+   docker build -f Dockerfile.bun -t my-app .
 
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
+   # Ejecutar el contenedor
+   docker run -p 3000:3000 my-app
+   ```
 
-Make sure to deploy the output of `npm run build`
+   La aplicación en contenedor puede desplegarse en cualquier plataforma que soporte Docker, incluyendo:
 
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
+   - AWS ECS
+   - Google Cloud Run
+   - Azure Container Apps
+   - Digital Ocean App Platform
+   - Fly.io
+   - Railway
 
-## Styling
+   ### DIY Deployment
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+   Si estás familiarizado con desplegar aplicaciones Node, el servidor integrado está listo para producción.
+
+   Asegúrate de desplegar el resultado de `npm run build`:
+
+   ```
+   ├── package.json
+   ├── package-lock.json (o pnpm-lock.yaml, o bun.lockb)
+   ├── build/
+   │   ├── client/    # Assets estáticos
+   │   └── server/    # Código del servidor
+   ```
+
+## Contribuciones
+
+Este proyecto está disponible para su mejora. Si tienes sugerencias o deseas contribuir:
+
+1. Abre un **Pull Request** con tus cambios.
+2. Reporta problemas mediante **Issues** en el repositorio.
+3. Mantén el formato existente en `categories.ts`.
+4. Verifica que todos los enlaces funcionen correctamente.
 
 ---
 
-Built with ❤️ using React Router.
+¡Gracias por usar esta web! Esperamos que te facilite la vida en el desarrollo web. 🚀

@@ -167,6 +167,11 @@ export const categories: Category[] = [
             github: 'https://github.com/radix-ui/themes',
           },
           {
+            title: 'DaisyUI',
+            web: 'https://daisyui.com',
+            github: 'https://github.com/saadeghi/daisyui',
+          },
+          {
             title: 'Flowbite',
             web: 'https://flowbite.com',
             github: 'https://github.com/themesberg/flowbite',
@@ -613,8 +618,8 @@ export const categories: Category[] = [
           },
           {
             title: 'Better Auth',
-            web: 'https://github.com/better-auth/better-auth',
-            github: 'https://www.better-auth.com',
+            web: 'https://www.better-auth.com',
+            github: 'https://github.com/better-auth/better-auth',
           },
           {
             title: 'OpenAuth',
@@ -749,11 +754,6 @@ export const categories: Category[] = [
             github: 'https://github.com/pmndrs/jotai',
           },
           {
-            title: 'TanStack Query (Datos remotos)',
-            web: 'https://tanstack.com/query',
-            github: 'https://github.com/TanStack/query',
-          },
-          {
             title: 'XState',
             web: 'https://stately.ai/docs',
             github: 'https://github.com/statelyai/xstate',
@@ -762,6 +762,22 @@ export const categories: Category[] = [
             title: 'MobX',
             web: 'https://mobx.js.org/README.html',
             github: 'https://github.com/mobxjs/mobx',
+          },
+        ],
+      },
+      {
+        title: 'Data fetching',
+        url: '/data-fetching',
+        data: [
+          {
+            title: 'TanStack Query',
+            web: 'https://tanstack.com/query',
+            github: 'https://github.com/TanStack/query',
+          },
+          {
+            title: 'SWR',
+            web: 'https://swr.vercel.app/es-ES',
+            github: 'https://github.com/vercel/swr',
           },
         ],
       },
@@ -850,6 +866,17 @@ export const categories: Category[] = [
             title: 'react-dropzone',
             web: 'https://react-dropzone.js.org',
             github: 'https://github.com/react-dropzone/react-dropzone',
+          },
+        ],
+      },
+      {
+        title: 'PDF',
+        url: '/pdf',
+        data: [
+          {
+            title: 'React-pdf',
+            web: 'https://react-pdf.org',
+            github: 'https://github.com/diegomura/react-pdf',
           },
         ],
       },
@@ -1105,6 +1132,10 @@ export const categories: Category[] = [
             title: 'OKLCH Color Picker & Converter',
             web: 'https://oklch.com',
             github: 'https://github.com/evilmartians/oklch-picker',
+          },
+          {
+            title: 'OverAPI',
+            web: 'https://overapi.com',
           },
         ],
       },
