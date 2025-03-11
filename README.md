@@ -63,7 +63,7 @@
    ]
    ```
 
-5. **\*Build para producción**: Genera una build optimizada.
+5. **Build para producción**: Genera una build optimizada.
 
    ```bash
    npm run build
