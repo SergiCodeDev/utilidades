@@ -186,6 +186,11 @@ export const categories: Category[] = [
             github: 'https://github.com/themeselection/flyonui',
           },
           {
+            title: 'UI Layouts',
+            web: 'https://www.ui-layouts.com',
+            github: 'https://github.com/ui-layouts/uilayouts',
+          },
+          {
             title: 'Buttons (Ibelick)',
             web: 'https://buttons.ibelick.com',
             github: 'https://github.com/ibelick/buttons',
@@ -378,11 +383,6 @@ export const categories: Category[] = [
           {
             title: 'React glow',
             github: 'https://github.com/codaworks/react-glow',
-          },
-          {
-            title: 'React Email',
-            web: 'https://react.email',
-            github: 'https://github.com/resend/react-email',
           },
           {
             title: 'Glide',
@@ -594,6 +594,47 @@ export const categories: Category[] = [
         title: 'Correos',
         url: '/correos',
         data: [{ title: 'Resend', web: 'https://resend.com' }],
+      },
+      {
+        title: 'InfraOps',
+        url: '/infra-ops',
+        data: [
+          {
+            title: 'Docker (Contenedor)',
+            web: 'https://www.docker.com',
+            github: 'https://github.com/docker',
+          },
+          {
+            title: 'Podman (Contenedor)',
+            web: 'https://podman.io',
+            github: 'https://github.com/containers/podman',
+          },
+          {
+            title: 'Helm (Orquestación)',
+            web: 'https://helm.sh',
+            github: 'https://github.com/helm/helm',
+          },
+          {
+            title: 'Kubernetes (Orquestación)',
+            web: 'https://kubernetes.io',
+            github: 'https://github.com/kubernetes/kubernetes',
+          },
+          {
+            title: 'Nomad (Orquestación)',
+            web: 'https://www.nomadproject.io',
+            github: 'https://github.com/hashicorp/nomad',
+          },
+          {
+            title: 'Portainer (Gestión de Contenedores)',
+            web: 'https://www.portainer.io',
+            github: 'https://github.com/portainer/portainer',
+          },
+          {
+            title: 'Rancher (Gestión de Contenedores)',
+            web: 'https://www.rancher.com',
+            github: 'https://github.com/rancher/rancher',
+          },
+        ],
       },
       {
         title: 'Info',
@@ -888,6 +929,17 @@ export const categories: Category[] = [
             title: 'date-fns',
             web: 'https://date-fns.org',
             github: 'https://github.com/date-fns/date-fns',
+          },
+        ],
+      },
+      {
+        title: 'Email',
+        url: '/email',
+        data: [
+          {
+            title: 'React Email',
+            web: 'https://react.email',
+            github: 'https://github.com/resend/react-email',
           },
         ],
       },
