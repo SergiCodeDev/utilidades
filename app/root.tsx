@@ -213,7 +213,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           sizes="256x256"
         />
       </head>
-      <body className="inter">
+      <body>
         {children}
         <ScrollRestoration />
         <Scripts />
