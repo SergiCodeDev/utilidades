@@ -1189,6 +1189,11 @@ export const categories: Category[] = [
             title: 'OverAPI',
             web: 'https://overapi.com',
           },
+          {
+            title: 'BundlePhobia',
+            web: 'https://bundlephobia.com',
+            github: 'https://github.com/pastelsky/bundlephobia',
+          },
         ],
       },
     ],
