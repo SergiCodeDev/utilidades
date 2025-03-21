@@ -1122,6 +1122,10 @@ export const categories: Category[] = [
             title: 'Google Fonts',
             web: 'https://fonts.google.com',
           },
+          {
+            title: 'Adobe Fonts',
+            web: 'https://fonts.adobe.com',
+          },
         ],
       },
       {
@@ -1193,6 +1197,10 @@ export const categories: Category[] = [
             title: 'BundlePhobia',
             web: 'https://bundlephobia.com',
             github: 'https://github.com/pastelsky/bundlephobia',
+          },
+          {
+            title: 'npm trends',
+            web: 'https://npmtrends.com',
           },
         ],
       },
