@@ -1018,6 +1018,17 @@ export const categories: Category[] = [
         ],
       },
       {
+        title: 'Canvas',
+        url: '/canvas',
+        data: [
+          {
+            title: 'Konva',
+            web: 'https://konvajs.org',
+            github: 'https://github.com/konvajs/konva',
+          },
+        ],
+      },
+      {
         title: 'Biblioteca 3D',
         url: '/biblioteca-3d',
         data: [
