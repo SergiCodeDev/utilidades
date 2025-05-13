@@ -1015,6 +1015,16 @@ export const categories: Category[] = [
             web: 'https://motion.dev',
             github: 'https://github.com/motiondivision/motion',
           },
+          {
+            title: 'GSAP',
+            web: 'https://gsap.com',
+            github: 'https://github.com/greensock/GSAP',
+          },
+          {
+            title: 'Lenis',
+            web: 'https://lenis.darkroom.engineering',
+            github: 'https://github.com/darkroomengineering/lenis',
+          },
         ],
       },
       {
