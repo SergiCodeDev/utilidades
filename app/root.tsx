@@ -177,7 +177,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
           property="og:description"
           content="Colección de herramientas, librerías y recursos para desarrolladores web. Desde frameworks y componentes UI hasta soluciones de hosting, bases de datos, testing y mucho más. Todo en un solo lugar."
         />
-        <meta property="og:url" content="https://sergicodedev.pages.dev" />
+        <meta property="og:url" content="https://utilidades.pages.dev" />
         <meta property="og:site_name" content="Utilidades" />
         <meta property="og:locale" content="es_ES" />
         <meta

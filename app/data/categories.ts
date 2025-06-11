@@ -1011,19 +1011,24 @@ export const categories: Category[] = [
         url: '/animaciones',
         data: [
           {
-            title: 'Motion',
-            web: 'https://motion.dev',
-            github: 'https://github.com/motiondivision/motion',
-          },
-          {
             title: 'GSAP',
             web: 'https://gsap.com',
             github: 'https://github.com/greensock/GSAP',
           },
           {
+            title: 'Motion',
+            web: 'https://motion.dev',
+            github: 'https://github.com/motiondivision/motion',
+          },
+          {
             title: 'Lenis',
             web: 'https://lenis.darkroom.engineering',
             github: 'https://github.com/darkroomengineering/lenis',
+          },
+          {
+            title: 'Anime.js',
+            web: 'https://animejs.com',
+            github: 'https://github.com/juliangarnier/anime',
           },
         ],
       },
