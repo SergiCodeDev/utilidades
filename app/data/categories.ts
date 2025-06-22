@@ -321,6 +321,16 @@ export const categories: Category[] = [
             github: 'https://github.com/ant-design/ant-design',
           },
           {
+            title: 'React Aria',
+            web: 'https://react-spectrum.adobe.com/react-aria/index.html',
+            github: 'https://github.com/adobe/react-spectrum',
+          },
+          {
+            title: 'Base UI',
+            web: 'https://base-ui.com',
+            github: 'https://github.com/mui/base-ui',
+          },
+          {
             title: 'Chakra UI',
             web: 'https://chakra-ui.com',
             github: 'https://github.com/chakra-ui/chakra-ui',
