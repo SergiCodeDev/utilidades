@@ -336,6 +336,11 @@ export const categories: Category[] = [
             github: 'https://github.com/chakra-ui/chakra-ui',
           },
           {
+            title: 'Ark UI',
+            web: 'https://ark-ui.com',
+            github: 'https://github.com/chakra-ui/ark',
+          },
+          {
             title: 'MUI',
             web: 'https://mui.com',
             github: 'https://github.com/mui',
