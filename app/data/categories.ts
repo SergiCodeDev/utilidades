@@ -101,6 +101,11 @@ export const categories: Category[] = [
             web: 'https://svelte.dev/docs/kit/introduction',
             github: 'https://github.com/sveltejs/kit',
           },
+          {
+            title: 'Solid',
+            web: 'https://www.solidjs.com',
+            github: 'https://github.com/solidjs/solid',
+          },
         ],
       },
 
@@ -225,6 +230,11 @@ export const categories: Category[] = [
             title: 'Magic UI',
             web: 'https://magicui.design',
             github: 'https://github.com/magicuidesign/magicui',
+          },
+          {
+            title: 'Tweakcn (Editor de temas)',
+            web: 'https://tweakcn.com',
+            github: 'https://github.com/jnsahaj/tweakcn',
           },
           {
             title: 'shadcn-ui-expansions',
@@ -1002,6 +1012,11 @@ export const categories: Category[] = [
             title: 'Yoopta Editor',
             web: 'https://yoopta.dev',
             github: 'https://github.com/yoopta-editor/Yoopta-Editor',
+          },
+          {
+            title: 'Tiptap Editor',
+            web: 'https://tiptap.dev',
+            github: 'https://github.com/ueberdosis/tiptap',
           },
         ],
       },
