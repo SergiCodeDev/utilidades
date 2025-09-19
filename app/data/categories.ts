@@ -419,6 +419,42 @@ export const categories: Category[] = [
             web: 'https://naver.github.io/egjs-flicking',
             github: 'https://github.com/naver/egjs-flicking',
           },
+          {
+            title: 'Kibo UI',
+            web: 'https://www.kibo-ui.com',
+            github: 'https://github.com/haydenbleasel/kibo',
+          },
+          {
+            title: 'ReUI',
+            web: 'https://reui.io',
+            github: 'https://github.com/keenthemes/reui',
+          },
+          {
+            title: 'SmoothUI',
+            web: 'https://smoothui.dev',
+            github: 'https://github.com/educlopez/smoothui',
+          },
+          {
+            title: 'Kokonut UI',
+            web: 'https://kokonutui.com',
+            github: 'https://github.com/kokonut-labs/kokonutui',
+          },
+        ],
+      },
+      {
+        title: 'Bloques',
+        url: '/bloques',
+        data: [
+          {
+            title: 'Tailark',
+            web: 'https://tailark.com',
+            github: 'https://github.com/tailark/blocks',
+          },
+          {
+            title: 'brijr',
+            web: 'https://components.work',
+            github: 'https://github.com/brijr/components',
+          },
         ],
       },
 
@@ -426,6 +462,11 @@ export const categories: Category[] = [
         title: 'Fondos',
         url: '/fondos',
         data: [
+          {
+            title: 'PatternCraft',
+            web: 'https://patterncraft.fun',
+            github: 'https://github.com/megh-bari/pattern-craft',
+          },
           {
             title: 'BG.IBELICK',
             web: 'https://bg.ibelick.com',
@@ -1025,6 +1066,11 @@ export const categories: Category[] = [
         url: '/arrastrar-soltar',
         data: [
           {
+            title: 'React Flow (xyflow)',
+            web: 'https://reactflow.dev',
+            github: 'https://github.com/xyflow/xyflow',
+          },
+          {
             title: 'Swapy',
             web: 'https://swapy.tahazsh.com',
             github: 'https://github.com/TahaSh/swapy',
@@ -1157,6 +1203,17 @@ export const categories: Category[] = [
             title: 'Kysely',
             web: 'https://kysely.dev',
             github: 'https://github.com/kysely-org/kysely',
+          },
+        ],
+      },
+      {
+        title: 'DB',
+        url: '/db',
+        data: [
+          {
+            title: 'drawDB',
+            web: 'https://www.drawdb.app',
+            github: 'https://github.com/drawdb-io/drawdb',
           },
         ],
       },
