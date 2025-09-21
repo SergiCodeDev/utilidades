@@ -1475,22 +1475,3 @@ export const navFooter: NavFooterItem[] = [
     // icon: HeartHandshake,
   },
 ]
-
-export function flattenCategories(
-  categories: Category[]
-): (Category | Subcategory | Utility)[] {
-  return categories.flatMap((category) => [
-    category,
-    ...category.items.flatMap((subcategory) => [
-      subcategory,
-      ...subcategory.data,
-    ]),
-  ])
-}
-
-export const flatItems = flattenCategories(categories)
-
-// Función auxiliar para obtener la URL completa de una subcategoría
-export function getFullUrl(category: Category, subcategoryUrl: string): string {
-  return `${category.url}${subcategoryUrl}`
-}
